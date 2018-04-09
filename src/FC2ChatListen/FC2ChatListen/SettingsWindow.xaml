@@ -1,0 +1,12 @@
+﻿<Window x:Name="SettingsWindow1" x:Class="FC2ChatListen.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="設定" Height="297" Width="376" FontSize="18" Loaded="SettingsWindow1_Loaded" Closing="SettingsWindow1_Closing">
+    <Grid>
+        <CheckBox x:Name="TopMostCheckBox" Content="最前面に表示する" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="カレントディレクトリ" HorizontalAlignment="Left" Margin="0,47,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="CurDirTextBox" HorizontalAlignment="Left" Height="35" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" IsReadOnlyCaretVisible="True" FontSize="14"/>
+        <Label Content="背景画像はカレントディレクトリのbackground.jpg&#xD;&#xA;です　コメントはcomment.txtに書き込まれます" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" FontSize="14" Width="350"/>
+
+    </Grid>
+</Window>
