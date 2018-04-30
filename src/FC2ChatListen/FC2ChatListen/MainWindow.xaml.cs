@@ -121,7 +121,6 @@ namespace FC2ChatListen
             // BitmapImageにファイルから画像を読み込む
             var bitmap = new BitmapImage();
             bitmap.BeginInit();
-            //bitmap.UriSource = new Uri(@"D:\proj\C#\FC2ChatListen\src\FC2ChatListen\background.jpg");
             bitmap.UriSource = new Uri(curDir + @"\background.jpg");
             bitmap.EndInit();
             
